@@ -131,3 +131,97 @@ margin: 0;
     0 2px 6px rgba(149, 157, 165, 0.08);
   }
   
+
+  /*Footer*/
+footer{
+    background-color: #252641;
+    height: 593px;
+    overflow: hidden;
+    
+}
+footer .r1{
+    margin-top: 74px;
+}
+footer .r1 .row {
+    gap: 81px;
+    justify-content: center;
+
+}
+
+footer .r1 p{    
+    border-left: 1px solid #626381;
+    padding-left: 81.77px;
+    color: white;
+    font-size: 22px;
+}
+footer .r2 .row {
+    justify-content: center;
+
+}
+footer .r2 .para2{
+    margin-top: 95px;
+}
+footer .r2 p{
+    color: #B2B3CF;
+    font-size: 23px;
+}
+footer .r3{
+    margin-top: 20px;
+    margin-bottom: 96px;
+}
+footer .r3 .row{
+    justify-content: center;
+    gap: 21.24px;
+}
+footer .r3 input{
+    width: 424.8px;
+    height: 60px;
+    background-color: #252641;
+    border: 1px #83839A solid;
+    border-radius: 80px;
+    font-family: "Poppins", cursive;
+    font-size: 20px;
+    text-indent: 31.86px;
+}
+input[type="email"]::placeholder{
+    color: #83839A;
+}
+footer .r3 button{
+    width: 190.1px;
+    height: 60px;
+    background-color: #49BBBD;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    font-family: "Poppins", cursive;
+    font-size: 22px;
+}
+footer .r4 .row {
+    justify-content: center;
+}
+footer .menu2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21.24px;
+}
+footer .menu2 ul li:not(:last-child)::after{
+    content:"|";
+    color:#626381;
+    margin-left: 21.24px;
+
+}
+footer a{
+    color:#B2B3CF;
+    font-size: 22px;
+}
+footer .r5 .row {
+    justify-content: center;
+}
+footer .r5{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+footer .r5 p{
+    color:#B2B3CF;
+    font-size: 22px;
+}
