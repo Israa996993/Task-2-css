@@ -225,3 +225,25 @@ footer .r5 p{
     color:#B2B3CF;
     font-size: 22px;
 }
+
+/*Media Query*/
+@media screen and (min-width:320px) and (max-width:600px) {
+    body{
+        background-color: rgb(131, 123, 123);
+    }
+    .collections .collection{
+         width: calc( ( 100% - 5px ) / 1 );
+    }
+    .collections h2{
+        font-size: 20px;
+    }
+     .collections a{
+        font-size: 10px;
+    }
+    .container{
+        width:calc( 100% - 18px ) ;
+
+    }
+
+
+}
