@@ -1,0 +1,35 @@
+/*Header*/
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+body{
+    font-family: "Poppins", cursive;
+}
+header{
+    padding: 28px 0;
+}
+header .row{
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+header a{
+    color: #5B5B5B;
+}
+.headerright{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+.headerright img{
+    width: 60px;
+    height: 60px;
+    background-color:rgb(233, 230, 230);
+    border-radius: 60px;
+}
+
